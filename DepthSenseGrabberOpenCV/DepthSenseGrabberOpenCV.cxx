@@ -45,7 +45,7 @@ int main(int argc, char* argv[])
     bool buildDepthSyncFlag = dispDepthSyncFlag || saveDepthSyncFlag;
     bool buildConfidenceFlag = dispConfidenceFlag || saveConfidenceFlag;
 
-    int flagColorFormat = FORMAT_WXGA_ID; // VGA, WXGA or NHD
+    int flagColorFormat = FORMAT_VGA_ID; // VGA, WXGA or NHD
 
     int widthColor, heightColor;
     switch (flagColorFormat) {
