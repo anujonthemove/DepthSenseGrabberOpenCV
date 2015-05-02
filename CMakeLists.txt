@@ -27,8 +27,8 @@ include_directories(${DEPTHSENSESDK_INCLUDE_DIR})
 link_directories(${DEPTHSENSESDK_LIBRARY_DIR})
 
 add_executable (DepthSenseGrabberOpenCV
-	DepthSenseGrabberOpenCV.cxx
-	DepthSenseGrabberOpenCV.hxx
+	./DepthSenseGrabberOpenCV/DepthSenseGrabberOpenCV.cxx
+	./DepthSenseGrabberOpenCV/DepthSenseGrabberOpenCV.hxx
 	./DepthSenseGrabberCore/DepthSenseGrabberCore.hxx
 	./shared/ConversionTools.cxx
 	./shared/ConversionTools.hxx
