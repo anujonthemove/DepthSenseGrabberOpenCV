@@ -37,13 +37,7 @@ Detail:
 Instructions to run:
 ---------------------
 
-~~~ sh
-$ git clone https://github.com/anujonthemove/DepthSenseGrabberOpenCV.git
-$ cd DepthSenseGrabberOpenCV
-$ mkdir build
-$ cd build
-$ cmake ..
-$ make 
-$ ./DepthSenseGrabberOpenCV
-~~~
- 
+Additions:
+----------
+
+- Added optional Makefile
